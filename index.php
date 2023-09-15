@@ -49,17 +49,33 @@
     $age = 30;
     $age1 = 30.3;
     $religion = true;
+    $people = array('Rakib', 'Roton', 'Sakib', 'Jihad');
 
     var_dump($name);
     var_dump($name1);
     var_dump($age);
     var_dump($age1);
-    var_dump($religion);
-    var_dump($age1);
+    var_dump($religion ) ;
+    var_dump($people);
 
 
-    
+    class Phone {
+        var $model;
+        function phoneModel($number) {
+            global $model;
+            $model = $number;
+            echo "This is $model <br>";
+        }
+    }
 
+    $apple = new Phone;
+    $apple-> phoneModel('Iphone 14 pro Max');
+
+    $samsung = new Phone;
+    $samsung-> phoneModel('S23 ultra');
+
+    $lg = new Phone;
+    $lg-> phoneModel('Upcomming')
 
     
     ?>
