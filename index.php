@@ -80,8 +80,11 @@
     
 
     $date = date('H');
-        if(5<6){
-            echo 'Good Morning';
+        if($date > 20){
+            echo 'Good Morning'. $date;
+        }
+        else{
+            echo 'Have A Nice Day'. $date;
         }
     ?>
 </body>
