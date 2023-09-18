@@ -90,22 +90,49 @@
 
 
     // PHP switch
-    switch('blue'){
-        case 'red':
-            echo 'Apple is Red.';
-            break;
+    // switch('blue'){
+    //     case 'red':
+    //         echo 'Apple is Red.';
+    //         break;
 
-        case 'green':
-            echo 'Mango is Green.';
-            break;
+    //     case 'green':
+    //         echo 'Mango is Green.';
+    //         break;
 
-        case 'Yellow':
-            echo 'Banana is Yellow.';
-            break;
+    //     case 'Yellow':
+    //         echo 'Banana is Yellow.';
+    //         break;
         
-        default:
-        echo 'I love to eat fruits.';
-    }
+    //     default:
+    //     echo 'I love to eat fruits.';
+    // };
+
+
+    // php loop
+
+
+    $a = 0;
+
+        // while loop
+
+    // while($a <= 5) {
+    //     echo 'The number is:'. $a. '<br>';
+    //     $a++;
+    // };
+
+        // do while loop
+    // do{
+    //     echo 'The number is:'. $a. '<br>';
+    //     $a++;
+
+    // }while($a <= 5);
+    
+        // for loop
+    
+    // for($b = 0; $b <=50; $b+=2){
+    //     echo 'The number is:'. $b. '<br>';
+    // }
+
     ?>
 </body>
 </html>
