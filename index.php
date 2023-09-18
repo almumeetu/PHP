@@ -21,63 +21,68 @@
     // $age4 = 10;
     // $AGE = 20;
  
-    $food = "pizza";
-    $color = "Black";
-    $country = "Bangladesh";
-    $age = "21";
-    echo 'My Name Is Al-Mumeetu Saikat </br>';
-    echo 'I love to eat '.$food;
-    echo '</br> My favorite color is ' .$color;
-    echo '</br> I am form ' .$country;
-    echo '</br> I am ' .$age .' years old </br>';
+    // $food = "pizza";
+    // $color = "Black";
+    // $country = "Bangladesh";
+    // $age = "21";
+    // echo 'My Name Is Al-Mumeetu Saikat </br>';
+    // echo 'I love to eat '.$food;
+    // echo '</br> My favorite color is ' .$color;
+    // echo '</br> I am form ' .$country;
+    // echo '</br> I am ' .$age .' years old </br>';
 
-    // PHP echo and Print Statements
+    // // PHP echo and Print Statements
 
-    $x = 3000;
-    $y = 4000;
+    // $x = 3000;
+    // $y = 4000;
 
-    echo  $x + $y."</br>";
-    print  $x + $y."</br>";
+    // echo  $x + $y."</br>";
+    // print  $x + $y."</br>";
 
-    print $food."</br>";
-    $foods = print('Drinks');
+    // print $food."</br>";
+    // $foods = print('Drinks');
 
-    echo $foods."</br>";
+    // echo $foods."</br>";
 
-    $name = 'Saikat';
-    $name1 = "it's me";
-    $age = 30;
-    $age1 = 30.3;
-    $religion = true;
-    $people = array('Rakib', 'Roton', 'Sakib', 'Jihad');
+    // $name = 'Saikat';
+    // $name1 = "it's me";
+    // $age = 30;
+    // $age1 = 30.3;
+    // $religion = true;
+    // $people = array('Rakib', 'Roton', 'Sakib', 'Jihad');
 
-    var_dump($name);
-    var_dump($name1);
-    var_dump($age);
-    var_dump($age1);
-    var_dump($religion ) ;
-    var_dump($people);
+    // var_dump($name);
+    // var_dump($name1);
+    // var_dump($age);
+    // var_dump($age1);
+    // var_dump($religion ) ;
+    // var_dump($people);
 
 
-    class Phone {
-        var $model;
-        function phoneModel($number) {
-            global $model;
-            $model = $number;
-            echo "This is $model <br>";
-        }
-    }
+    // class Phone {
+    //     var $model;
+    //     function phoneModel($number) {
+    //         global $model;
+    //         $model = $number;
+    //         echo "This is $model <br>";
+    //     }
+    // }
 
-    $apple = new Phone;
-    $apple-> phoneModel('Iphone 14 pro Max');
+    // $apple = new Phone;
+    // $apple-> phoneModel('Iphone 14 pro Max');
 
-    $samsung = new Phone;
-    $samsung-> phoneModel('S23 ultra');
+    // $samsung = new Phone;
+    // $samsung-> phoneModel('S23 ultra');
 
-    $lg = new Phone;
-    $lg-> phoneModel('Upcomming')
+    // $lg = new Phone;
+    // $lg-> phoneModel('Upcomming')
 
     
+
+    $date = date('H');
+        if(5<6){
+            echo 'Good Morning';
+        }
     ?>
 </body>
 </html>
