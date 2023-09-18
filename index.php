@@ -78,14 +78,34 @@
     // $lg-> phoneModel('Upcomming')
 
     
+    // PHP if Else
 
-    $date = date('H');
-        if($date > 20){
-            echo 'Good Morning'. $date;
-        }
-        else{
-            echo 'Have A Nice Day'. $date;
-        }
+    // $date = date('H');
+    //     if($date > 20){
+    //         echo 'Good Morning'. $date;
+    //     }
+    //     else{
+    //         echo 'Have A Nice Day'. $date;
+    //     }
+
+
+    // PHP switch
+    switch('blue'){
+        case 'red':
+            echo 'Apple is Red.';
+            break;
+
+        case 'green':
+            echo 'Mango is Green.';
+            break;
+
+        case 'Yellow':
+            echo 'Banana is Yellow.';
+            break;
+        
+        default:
+        echo 'I love to eat fruits.';
+    }
     ?>
 </body>
 </html>
