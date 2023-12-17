@@ -25,10 +25,22 @@ var_dump($languages);
 
 // PHP Loop
 $x = 0;
-while($x<101) {
+
+  // while loop
+// while($x<101) {
+ //   echo $x;
+   // echo '<br>';
+ //   $x++;
+//};
+
+  // do while loop
+
+  do{
     echo $x;
-    echo '<br>';
+    echo "<br>";
     $x++;
-};
+  }
+  while($x < 20);
+  
 
 ?>
