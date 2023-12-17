@@ -24,4 +24,11 @@ echo "<br>";
 var_dump($languages);
 
 // PHP Loop
+$x = 0;
+while($x<101) {
+    echo $x;
+    echo '<br>';
+    $x++;
+};
+
 ?>
