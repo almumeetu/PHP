@@ -22,4 +22,6 @@ $languages = array("Bangali", "English", "German", "Franch", "Hindi");
 echo $languages;
 echo "<br>";
 var_dump($languages);
+
+// PHP Loop
 ?>
