@@ -17,5 +17,9 @@ $x1 = "Saikat";
 $age = 21;
 $is_student = true;
 $height = 5.6;
-$languages = array("Bangali", "English", "German", "Franch", "Hindi")
+$languages = array("Bangali", "English", "German", "Franch", "Hindi");
+
+echo $languages;
+echo "<br>";
+var_dump($languages);
 ?>
